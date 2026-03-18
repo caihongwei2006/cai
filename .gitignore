@@ -1,0 +1,40 @@
+# Binaries
+cai_bench
+mvp
+picoclaw_bench
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE
+.claude/
+.cursor/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Planning artifacts
+*.plan.md
+
+# Design docs (private — not published)
+AGENTS.md
+DESIGN.md
+spec/
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
